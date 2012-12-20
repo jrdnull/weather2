@@ -28,7 +28,7 @@ Usage
 
 To get the two day forecast for 90210, with the temp in celcius and wind speed in miles per hour:
 ```go
-client, err := weather2.NewClient("6-f827v6vb", weather2.CELCIUS, weather2.MILES_PER_HOUR)
+client, err := weather2.NewClient("<your-key>", weather2.CELCIUS, weather2.MILES_PER_HOUR)
 if err != nil {
 	fmt.Println(err)
 }
@@ -41,17 +41,19 @@ if err != nil {
 }
 ```
 Outputs:
-> Today (Clear skies)
->         Temp: 11c :: Wind: 2mph (Direction: NNE) :: Humidity: 22pct :: Pressure: 1023mb
-> 2012-12-20
->         High: 18c Low: 8c
->         Day: Sunny skies :: Wind: 2mph (Direction: E)
->         Night: Clear skies :: Wind: 2mph (Direction: N)
-> 2012-12-21
->         High: 19c Low: 9c
->         Day: Sunny skies :: Wind: 2mph (Direction: E)
->         Night: Clear skies :: Wind: 2mph (Direction: N)
-> Weather provided by www.MyWeather2.com
+```
+Today (Clear skies)
+        Temp: 11c :: Wind: 2mph (Direction: NNE) :: Humidity: 22pct :: Pressure: 1023mb
+2012-12-20
+        High: 18c Low: 8c
+        Day: Sunny skies :: Wind: 2mph (Direction: E)
+        Night: Clear skies :: Wind: 2mph (Direction: N)
+2012-12-21
+        High: 19c Low: 9c
+        Day: Sunny skies :: Wind: 2mph (Direction: E)
+        Night: Clear skies :: Wind: 2mph (Direction: N)
+Weather provided by www.MyWeather2.com
+```
 
 Check the generated go doc for more info.
 
