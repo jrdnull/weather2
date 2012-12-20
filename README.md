@@ -1,8 +1,8 @@
 weather2
 ========
 
-weather2 provides easy access to the (Weather2)[http://www.myweather2.com] api, to use this 
-api you must sign up for a key and agree to the terms of service which can be done (here)[http://www.myweather2.com/developer/].
+weather2 provides easy access to the [Weather2](http://www.myweather2.com) api, to use this 
+api you must sign up for a key and agree to the terms of service which can be done [here](http://www.myweather2.com/developer/).
 
 The 7 day forecast is limited to one global location by using a reference to a location which can be generated in 
 the Developer Zone of your account.
